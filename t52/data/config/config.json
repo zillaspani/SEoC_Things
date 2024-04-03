@@ -1,0 +1,16 @@
+{
+  "HOSTNAME":"t52",
+  "IP":"192.168.1.100",
+  "UDP_PORT":6052,
+  "SEC_REQ":3,
+  "UDP_PORT_THING":7052,
+
+  "SUGGESTED_AUTH":{
+		"a5":{
+			"ADDRESS": "192.168.1.100",
+			"PORT": 5005
+		}
+	},
+	"THINGS":{
+	}
+}

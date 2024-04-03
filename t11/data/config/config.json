@@ -1,0 +1,16 @@
+{
+  "HOSTNAME":"t11",
+  "IP":"192.168.1.100",
+  "UDP_PORT":6011,
+  "SEC_REQ":3,
+  "UDP_PORT_THING":7011,
+
+  "SUGGESTED_AUTH":{
+		"a1":{
+			"ADDRESS": "192.168.1.100",
+			"PORT": 5001
+		}
+	},
+	"THINGS":{
+	}
+}

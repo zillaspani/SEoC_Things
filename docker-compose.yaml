@@ -1,0 +1,83 @@
+version: '3'
+
+services:
+  t11:
+    container_name: t11
+    hostname: t11
+    network_mode: "host"
+    build: 
+      context: ./t11/
+    volumes:
+      - $PWD/t11/data:/app/data
+      - "/etc/timezone:/etc/timezone:ro"
+      - "/etc/localtime:/etc/localtime:ro"
+  t12:
+    container_name: t12
+    hostname: t12
+    network_mode: "host"
+    build: 
+      context: ./t12/
+    volumes:
+      - $PWD/t12/data:/app/data
+      - "/etc/timezone:/etc/timezone:ro"
+      - "/etc/localtime:/etc/localtime:ro"
+  t21:
+    container_name: t21
+    hostname: t21
+    network_mode: "host"
+    build: 
+      context: ./t21/
+    volumes:
+      - $PWD/t21/data:/app/data
+      - "/etc/timezone:/etc/timezone:ro"
+      - "/etc/localtime:/etc/localtime:ro"
+  t31:
+    container_name: t31
+    hostname: t31
+    network_mode: "host"
+    build: 
+      context: ./t31/
+    volumes:
+      - $PWD/t31/data:/app/data
+      - "/etc/timezone:/etc/timezone:ro"
+      - "/etc/localtime:/etc/localtime:ro"
+  t32:
+    container_name: t32
+    hostname: t32
+    network_mode: "host"
+    build: 
+      context: ./t32/
+    volumes:
+      - $PWD/t32/data:/app/data
+      - "/etc/timezone:/etc/timezone:ro"
+      - "/etc/localtime:/etc/localtime:ro"
+  t41:
+    container_name: t41
+    hostname: t41
+    network_mode: "host"
+    build: 
+      context: ./t41/
+    volumes:
+      - $PWD/t41/data:/app/data
+      - "/etc/timezone:/etc/timezone:ro"
+      - "/etc/localtime:/etc/localtime:ro"
+  t51:
+    container_name: t51
+    hostname: t51
+    network_mode: "host"
+    build: 
+      context: ./t51/
+    volumes:
+      - $PWD/t51/data:/app/data
+      - "/etc/timezone:/etc/timezone:ro"
+      - "/etc/localtime:/etc/localtime:ro"
+  t52:
+    container_name: t52
+    hostname: t52
+    network_mode: "host"
+    build: 
+      context: ./t52/
+    volumes:
+      - $PWD/t52/data:/app/data
+      - "/etc/timezone:/etc/timezone:ro"
+      - "/etc/localtime:/etc/localtime:ro"
